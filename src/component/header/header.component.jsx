@@ -5,7 +5,9 @@ import data from "../../data.json";
 export const Header = () => {
   return (
     <StyledHeader>
-      <STitle>{data.title}</STitle>
+      <STitle>{data.number}</STitle>
     </StyledHeader>
   );
 };
+
+// this is the number
